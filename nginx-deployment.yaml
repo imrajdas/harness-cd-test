@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: <+infra.namespace> 
+  namespace: infrans-two
   labels:
     app: nginx
 spec:
