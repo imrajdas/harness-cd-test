@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: testns
+  namespace: naveen-delegate
   labels:
     app: nginx
 spec:
